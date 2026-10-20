@@ -1,0 +1,2 @@
+﻿computernaam;computermodel;serienummer;processor;fysieke_cores;max_cpu_frequentie_mhz;ram_totaal_gb;opslag_bestandssysteem;opslag_capaciteit_gb;primaire_interface;mac_adres;ipv4_adres;ipv6_adres;ipv6_link_local
+Othmane;LENOVO 20YG00B8MB;PF3LH6SR;AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD;8;1801.0;14.82;NTFS;474.72;Wi-Fi;D8-80-83-A4-D6-F1;192.168.129.112;2a02:a03f:630d:6201:6fb0:2d99:f38b:828c;fe80::c4b1:e5a9:fb8e:2ecc

@@ -1,0 +1,16 @@
+{
+  "computernaam": "Othmane",
+  "computermodel": "LENOVO 20YG00B8MB",
+  "serienummer": "PF3LH6SR",
+  "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+  "fysieke_cores": 8,
+  "max_cpu_frequentie_mhz": 1801.0,
+  "ram_totaal_gb": 14.82,
+  "opslag_bestandssysteem": "NTFS",
+  "opslag_capaciteit_gb": 474.72,
+  "primaire_interface": "Wi-Fi",
+  "mac_adres": "D8-80-83-A4-D6-F1",
+  "ipv4_adres": "192.168.129.112",
+  "ipv6_adres": "2a02:a03f:630d:6201:6fb0:2d99:f38b:828c",
+  "ipv6_link_local": "fe80::c4b1:e5a9:fb8e:2ecc"
+}
