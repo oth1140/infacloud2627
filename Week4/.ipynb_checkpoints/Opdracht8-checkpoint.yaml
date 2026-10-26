@@ -1,0 +1,18 @@
+---
+- name: Configure Cisco IOS device using ios_config
+  hosts: ios_routers
+  gather_facts: false
+  connection: network_cli
+
+  tasks:
+    - name: Configure a banner or interface settings
+      cisco.ios.ios_config:
+        lines:
+          - description Managed by Ansible
+          - ip address 192.168.100.1 255.255.255.0
+        parents: interface GigabitEthernet2
+      register: config_result
+
+    - name: Display configuration result
+      debug:
+        var: config_result.changed

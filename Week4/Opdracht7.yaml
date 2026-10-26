@@ -1,0 +1,17 @@
+---
+- name: Run show commands on IOS device using ios_command
+  hosts: ios_routers
+  gather_facts: false
+  connection: network_cli
+
+  tasks:
+    - name: Execute show version and show ip interface brief
+      cisco.ios.ios_command:
+        commands:
+          - show version
+          - show ip interface brief
+      register: output
+
+    - name: Display command outputs
+      debug:
+        var: output.stdout_lines

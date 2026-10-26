@@ -1,0 +1,11 @@
+[routers]
+Cat8kv ansible_host=10.10.20.48
+
+[routers:vars]
+ansible_user=developer
+ansible_password=C1sco12345
+ansible_connection=ansible.netcommon.network_cli
+ansible_network_os=cisco.ios.ios
+ansible_become=true
+ansible_become_method=enable
+ansible_become_password=C1sco12345
